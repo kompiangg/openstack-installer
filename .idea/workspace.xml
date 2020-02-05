@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49e967f9-607d-4f8b-9575-afe867be5e6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/service/horizon.sh" beforeDir="false" afterPath="$PROJECT_DIR$/service/horizon.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XNa5k7gn2B5fZhZPEuyScuoHak" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49e967f9-607d-4f8b-9575-afe867be5e6a" name="Default Changelist" comment="" />
+      <created>1580888825181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580888825181</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl" timestamp="1580888931556">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="466" y="142" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580888931556" />
+    <state x="429" y="1015" key="com.intellij.ide.util.TipDialog" timestamp="1580917371251">
+      <screen x="0" y="768" width="1600" height="900" />
+    </state>
+    <state x="366" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580889004978" />
+    <state x="429" y="1015" key="com.intellij.ide.util.TipDialog/0.768.1600.900/108.0.1366.768@0.768.1600.900" timestamp="1580917371251" />
+    <state x="474" y="211" key="com.intellij.ide.util.TipDialog/0.768.1600.900/108.0.1366.768@108.0.1366.768" timestamp="1580911788305" />
+    <state x="464" y="900" width="662" height="633" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580916204812">
+      <screen x="0" y="768" width="1600" height="900" />
+    </state>
+    <state x="464" y="900" width="662" height="633" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.768.1600.900/108.0.1366.768@0.768.1600.900" timestamp="1580916204812" />
+    <state x="37" y="1046" width="791" height="619" key="find.popup" timestamp="1580915540904">
+      <screen x="0" y="768" width="1600" height="900" />
+    </state>
+    <state x="359" y="120" width="647" height="528" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1580889016676" />
+    <state x="37" y="1046" width="791" height="619" key="find.popup/0.768.1600.900/108.0.1366.768@0.768.1600.900" timestamp="1580915540904" />
+  </component>
+</project>
