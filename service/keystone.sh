@@ -5,7 +5,8 @@ if [ "$EUID" -ne 0 ]; then
     exit
 fi
 
-source ../network/network_var.sh
+source network/network_var.sh
+source user/user_var.sh
 
 echo
 echo "LOG: create keystone database"
@@ -20,7 +21,7 @@ yum install openstack-keystone httpd mod_wsgi -y
 
 echo
 echo "LOG: edit configuration"
-crudini --set /etc/keystone/keystone.conf database connection mysql+pymysql://keystone:$KEYSTONEDB_PASS@$CONTROLLER_PROVIDER_IP/keystone
+crudini --set /etc/keystone/keystone.conf database connection mysql+pymysql://keystone:$KEYSTONEDB_PASS@$CONTROLLER_MANAGEMENT_IP/keystone
 crudini --set /etc/keystone/keystone.conf token provider fernet
 
 echo
@@ -35,9 +36,9 @@ keystone-manage credential_setup --keystone-user keystone --keystone-group keyst
 echo
 echo "LOG: bootstrap keystone"
 keystone-manage bootstrap --bootstrap-password $ADMIN_PASS \
-  --bootstrap-admin-url http://$CONTROLLER_PROVIDER_IP/v3/ \
-  --bootstrap-internal-url http://$CONTROLLER_PROVIDER_IP/v3/ \
-  --bootstrap-public-url http://$CONTROLLER_PROVIDER_IP/v3/ \
+  --bootstrap-admin-url http://$CONTROLLER_MANAGEMENT_IP:5000/v3/ \
+  --bootstrap-internal-url http://$CONTROLLER_MANAGEMENT_IP:5000/v3/ \
+  --bootstrap-public-url http://$CONTROLLER_MANAGEMENT_IP:5000/v3/ \
   --bootstrap-region-id RegionOne
 
 echo
@@ -77,3 +78,8 @@ openstack --os-auth-url http://controller:35357/v3 \
 echo
 echo "LOG: create service project"
 openstack project create --domain default --description "Service Project" service
+
+echo
+echo '==========================================='
+echo '           INSTALL SUCCESSFULLY            '
+echo '==========================================='
